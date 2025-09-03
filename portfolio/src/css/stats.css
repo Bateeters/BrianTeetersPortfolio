@@ -1,0 +1,42 @@
+.stats {
+    height: 50vh;
+}
+
+.stat-card-start {
+    border-radius: 20px 0 0 20px;
+
+    & p {
+        display: none;
+    }
+
+    &:hover {
+        background-image: linear-gradient(var(--card-dark), rgba(0, 255, 0, 0.25), rgba(0, 255, 0, 0.5));
+        border: none;
+    }
+}
+
+.stat-card {
+    border-radius: 0 !important;
+
+    & p {
+        display: none;
+    }
+
+    &:hover {
+        background-image: linear-gradient(var(--card-dark), rgba(0, 255, 0, 0.25), rgba(0, 255, 0, 0.5));
+        border: none;
+    }
+}
+
+.stat-card-end {
+    border-radius: 0 20px 20px 0;
+
+    & p {
+        display: none;
+    }
+
+    &:hover {
+        background-image: linear-gradient(var(--card-dark), rgba(0, 255, 0, 0.25), rgba(0, 255, 0, 0.5));
+        border: none;
+    }
+}

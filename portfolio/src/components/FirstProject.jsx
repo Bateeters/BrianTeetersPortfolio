@@ -1,19 +1,44 @@
+import { useEffect, useRef } from "react";
 import "../css/firstProject.css"
 
 function FirstProject({project}) {
+    const containerRef = useRef(null);
+    const innerRef = useRef(null);
+
+    useEffect(() => {
+        const handleScroll = () => {
+        if (!containerRef.current || !innerRef.current) return;
+
+        const rect = containerRef.current.getBoundingClientRect();
+
+        if (rect.top <= 0) {
+            innerRef.current.style.position = "fixed";
+            innerRef.current.style.top = "";
+        } else {
+            innerRef.current.style.position = "static";
+            innerRef.current.style.top = "0";
+        }
+        };
+
+        window.addEventListener("scroll", handleScroll);
+
+        // Cleanup on unmount
+        return () => window.removeEventListener("scroll", handleScroll);
+    }, []);
+
     return (
-        <div className="text-center d-flex first-proj-container" style={{backgroundColor: `${project.bgColor}`}}>
-            <div className="first-proj-flex-box">
-                <div className="first-proj-image">
+        <div ref={containerRef} className="text-center d-flex first-proj-container">
+            <div ref={innerRef} className="first-proj-flex-box">
+                <div className="first-proj-image" style={{backgroundColor: `${project.bgColor}`}}>
                     <h2>{project.image}</h2>
                 </div>
-                <div className="text-start">
+                <div className="text-start project-text">
                     <h2>{project.id}</h2>
                     <h2>{project.title}</h2>
                     <p>{project.description}</p>
                     <br/>
                     <a href="" className="proj-btn">
-                        <button>Click Me!</button>
+                        <button>Click Me! NOW!</button>
                     </a>
                 </div>
             </div>

@@ -1,7 +1,9 @@
 .project-container {
     height: 100vh;
     z-index: 3;
+    /*
     position: sticky;
+    */
     top: 0;
     clip-path: inset(0);
 }
@@ -20,16 +22,8 @@
     height: 100%;
 }
 
-.card {
-    background-color: paleturquoise;
-    padding: 15px 30px;
-    border-radius: 30px;
-    border: 1px solid gray;
-    height: 200px;
-    display: flex;
-    flex-direction: column;
-    margin: auto -50px;
-    width: 450px;
+.project-text {
+    width: 50%;
 }
 
 .project-btn {
