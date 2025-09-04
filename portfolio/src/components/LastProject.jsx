@@ -29,9 +29,6 @@ function LastProject({project}) {
     return(
         <div ref={containerRef} className="text-center d-flex last-proj-container">
             <div ref={innerRef} className="last-proj-flex-box">
-                <div className="last-proj-image" style={{backgroundColor: `${project.bgColor}`}}>
-                    <h2>{project.image}</h2>
-                </div>
                 <div className="text-start project-text">
                     <h2>{project.id}</h2>
                     <h2>{project.title}</h2>
@@ -40,6 +37,9 @@ function LastProject({project}) {
                     <a href="" className="proj-btn">
                         <button >Click Me!</button>
                     </a>
+                </div>
+                <div className="last-proj-image" style={{backgroundColor: `${project.bgColor}`}}>
+                    <h2>{project.image}</h2>
                 </div>
             </div>
         </div>

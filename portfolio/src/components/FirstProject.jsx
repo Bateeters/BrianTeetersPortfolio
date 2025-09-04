@@ -29,9 +29,6 @@ function FirstProject({project}) {
     return (
         <div ref={containerRef} className="text-center d-flex first-proj-container">
             <div ref={innerRef} className="first-proj-flex-box">
-                <div className="first-proj-image" style={{backgroundColor: `${project.bgColor}`}}>
-                    <h2>{project.image}</h2>
-                </div>
                 <div className="text-start project-text">
                     <h2>{project.id}</h2>
                     <h2>{project.title}</h2>
@@ -40,6 +37,9 @@ function FirstProject({project}) {
                     <a href="" className="proj-btn">
                         <button>Click Me! NOW!</button>
                     </a>
+                </div>
+                <div className="first-proj-image" style={{backgroundColor: `${project.bgColor}`}}>
+                    <h2>{project.image}</h2>
                 </div>
             </div>
         </div>
