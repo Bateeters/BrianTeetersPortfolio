@@ -4,21 +4,33 @@ function Stats() {
     return (
         <div className="container">
             <div className="row justify-content-center">
-                <div className="col-xxl-10 col-11">
-                    <div className="row justify-content-center">
-                        <div className="col-2 card d-flex stat-card-start justify-content-center align-items-center p-4">
+                <div className="col-3 p-0 stat-card-container d-flex align-items-end">
+                    <div className="card stat-card-start w-100">
+                        <div className="stat-card-body text-center">
                             <h3>stat 1</h3>
                             <p>extra stuff</p>
                         </div>
-                        <div className="col-2 card stat-card d-flex justify-content-center align-items-center p-4">
+                    </div>
+                </div>
+                <div className="col-3 p-0 stat-card-container d-flex align-items-end">
+                    <div className="card stat-card w-100">
+                        <div className="stat-card-body text-center">
                             <h3>stat 1</h3>
                             <p>extra stuff</p>
                         </div>
-                        <div className="col-2 card stat-card d-flex justify-content-center align-items-center p-4">
+                    </div>
+                </div>
+                <div className="col-3 p-0 stat-card-container d-flex align-items-end">
+                    <div className="card stat-card w-100">
+                        <div className="stat-card-body text-center">
                             <h3>stat 1</h3>
                             <p>extra stuff</p>
                         </div>
-                        <div className="col-2 card stat-card-end d-flex justify-content-center align-items-center p-4">
+                    </div>
+                </div>
+                <div className="col-3 p-0 stat-card-container d-flex align-items-end">
+                    <div className="card stat-card-end w-100">
+                        <div className="stat-card-body text-center">
                             <h3>stat 1</h3>
                             <p>extra stuff</p>
                         </div>
