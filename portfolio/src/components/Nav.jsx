@@ -19,10 +19,10 @@ function Nav() {
                             <a className="nav-link" href="">About</a>
                         </li>
                         <li className="nav-item d-flex align-items-center px-2">
-                            <button className="btn nav-link px-2 py-1 rounded-pill">Contact Me</button>
+                            <button className="btn px-2 py-1 rounded-pill">Contact Me</button>
                         </li>
                         <li className="nav-item d-flex align-items-center px-2">
-                            <button className="theme-toggle-btn btn nav-link"></button>
+                            <button className="theme-toggle-btn btn"></button>
                         </li>
                     </ul>
                 </div>

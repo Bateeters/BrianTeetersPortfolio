@@ -5,7 +5,7 @@ import { projects } from '../js/projectsList'
 
 function Projects(){
     return(
-        <div>
+        <>
             {projects.map((project, index) => {
             switch (true) {
                 case project.id === "01":
@@ -16,7 +16,7 @@ function Projects(){
                 return <Project key={project.id} project={project} />;
             }
             })}
-        </div>
+        </>
     )
 }
 

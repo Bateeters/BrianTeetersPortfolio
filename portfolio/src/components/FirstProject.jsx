@@ -29,16 +29,17 @@ function FirstProject({project}) {
     return (
         <div ref={containerRef} className="text-center d-flex first-proj-container">
             <div ref={innerRef} className="first-proj-flex-box">
-                <div className="text-start project-text">
-                    <h2>{project.id}</h2>
-                    <h2>{project.title}</h2>
-                    <p>{project.description}</p>
+                <div className="text-start proj-text">
+                    <h3 className="proj-id">{project.id}</h3>
+                    <h2 className="proj-title">{project.title}</h2>
+                    <p className="proj-description">{project.description}</p>
+                    <p className="proj-tech">{project.tech}</p>
                     <br/>
-                    <a href="" className="proj-btn">
-                        <button>Click Me! NOW!</button>
+                    <a href="">
+                        <button className="btn px-2 py-1 rounded-pill">Click Me! NOW!</button>
                     </a>
                 </div>
-                <div className="first-proj-image" style={{backgroundColor: `${project.bgColor}`}}>
+                <div className="proj-image" style={{backgroundColor: `${project.bgColor}`}}>
                     <h2>{project.image}</h2>
                 </div>
             </div>

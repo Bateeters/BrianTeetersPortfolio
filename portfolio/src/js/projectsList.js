@@ -37,11 +37,11 @@ export const projects = [
         tech: ["HTML", "CSS", "Adobe XD"],
         link: "https://shopdemo.com",
         github: "https://github.com/me/shopdemo",
-        bgColor: "lavender"
+        bgColor: "orchid"
     },
     {
         id: "05",
-        title: "To-Do List (Python)",
+        title: "To-Do List",
         description: "A simple to-do list application built with Python. While straightforward, it represents some of my first steps into backend development and full-stack thinking, laying the foundation for future work and projects with data handling, logic structuring, and server-side programming.",
         image: "/images/ToDoListPythonImg.png",
         tech: ["Python"],
