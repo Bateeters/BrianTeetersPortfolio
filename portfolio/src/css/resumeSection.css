@@ -1,0 +1,23 @@
+hr {
+    color: lime;
+    opacity: 1;
+}
+
+li::marker {
+    color: lime;
+}
+
+.resume-title {
+    position: sticky;
+    top: 60px;
+}
+
+@media screen and (max-width: 767px) {
+    hr {
+        display: none;
+    }
+
+    .resume-title {
+        position: initial;
+    }
+}

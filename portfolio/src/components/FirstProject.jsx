@@ -33,8 +33,11 @@ function FirstProject({project}) {
                     <h3 className="proj-id">{project.id}</h3>
                     <h2 className="proj-title">{project.title}</h2>
                     <p className="proj-description">{project.description}</p>
-                    <p className="proj-tech">{project.tech}</p>
-                    <br/>
+                    <div className="d-flex flex-wrap">
+                        {project.tech.map((tech) => (
+                            <p className="pe-3" key={tech.id}>{tech}</p>
+                        ))}
+                    </div>                    <br/>
                     <a href="">
                         <button className="btn px-2 py-1 rounded-pill">Click Me! NOW!</button>
                     </a>

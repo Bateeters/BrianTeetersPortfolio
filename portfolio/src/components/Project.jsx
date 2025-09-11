@@ -8,7 +8,11 @@ function Project({project}) {
                     <h3 className="proj-id">{project.id}</h3>
                     <h2 className="proj-title">{project.title}</h2>
                     <p className="proj-description">{project.description}</p>
-                    <p className="proj-tech">{project.tech}</p>
+                    <div className="d-flex flex-wrap">
+                        {project.tech.map((tech) => (
+                            <p className="pe-3" key={tech.id}>{tech}</p>
+                        ))}
+                    </div>
                     <br/>
                     <p>no button here!</p>
                 </div>
