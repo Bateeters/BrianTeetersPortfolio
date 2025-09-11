@@ -136,11 +136,11 @@ body {
   background-color: var(--bg-light);
 
   & .line {
-    background: rgba(255, 0, 89, 0.17);
+    background: rgba(254, 167, 199, 0.268);
   }
 
   & .line::after {
-      background: linear-gradient(to bottom, rgba(204, 0, 255, 0) 0%, salmon 75%, orchid 100%);
+      background: linear-gradient(to bottom, rgba(204, 0, 255, 0) 0%, salmon 75%, rgb(208, 0, 255) 100%);
   }
 
   & nav {

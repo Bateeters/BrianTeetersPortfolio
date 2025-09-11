@@ -2,9 +2,9 @@ import '../css/resumeSection.css'
 
 function ResumeSection({ section }) {
     return (
-        <div className="resume-section row justify-content-md-center justify-content-end me-sm-5 align-items-start">
-            <h2 className="col-md-3 col-sm-8 col-10 p-md-4 ms-md-3 resume-title">{section.section}</h2>
-            <div className="col-md-7 col-sm-8 col-10 pb-md-0 pb-5">
+        <div className="resume-section row justify-content-end align-items-start">
+            <h2 className="resume-title col-md-3 col-sm-10 col-9 pt-3">{section.section}</h2>
+            <div className="col-md-9 col-sm-10 col-9">
                 <hr/>
                 {/* Case 1: Experience / Projects / Education */}
                 {section.items && section.items.map((item, i) => (
@@ -15,7 +15,7 @@ function ResumeSection({ section }) {
                             {item.company && ` — ${item.company}`}
                             {item.institution && ` ${item.institution}`}
                         </h4>
-                        {item.degree && <p className="degree">{item.degree}</p>}
+                        {item.degree && <p className="degree mb-0">{item.degree}</p>}
                         {item.date && <p className="date">{item.date}</p>}
 
                         {/* Bullets */}

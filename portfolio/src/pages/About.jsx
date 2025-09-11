@@ -9,9 +9,9 @@ function About() {
             <header>
                 <Nav />
             </header>
-            <main style={{marginTop: "100px"}}>
+            <div style={{marginTop: "100px"}}>
                 <Bio />
-            </main>
+            </div>
 
             <footer>
                 <Footer />
