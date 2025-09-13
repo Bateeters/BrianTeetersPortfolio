@@ -11,22 +11,11 @@ function Home() {
             <header>
                 <Nav />
             </header>
-            <div style={{textWrap: "pretty"}}>
-                <section id="hero" className='hero container' aria-label="Introduction">
-                    <Hero />
-                </section>
-
-                <section id="stats" className='container' aria-label="Stats">
-                    <Stats />
-                </section>
-
-                <section id="projects" className='container-fluid' aria-label="Projects">
-                    <Projects />
-                </section>
-
-                <section id="summary" className='container-fluid' aria-label="Short Summary">
-                    <Summary />
-                </section>
+            <div style={{textWrap: "pretty"}} className='container-fluid'>
+                <Hero />
+                <Stats />
+                <Projects />
+                <Summary />
             </div>
 
             <footer>
