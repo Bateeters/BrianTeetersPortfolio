@@ -6,7 +6,7 @@
 
   --nav-light: white;
   --bg-light: #f8f9fa;
-  --card-light:  rgb(198, 198, 198);
+  --card-light:  rgb(230, 230, 230);
   --accent-light: salmon;
 }
 
@@ -114,6 +114,17 @@ body {
 
   & .card {
     background-color: var(--card-dark) !important;
+  }
+
+  & .card-btn {
+    background-color: var(--nav-dark);
+    border: 1px solid var(--card-dark);
+    color: whitesmoke;
+
+    &:hover {
+      background-image: linear-gradient(var(--card-dark), var(--accent-dark));
+      color: whitesmoke;
+    }
   }
 
   & button {

@@ -14,7 +14,9 @@ function Home() {
             <div style={{textWrap: "pretty"}} className='container-fluid'>
                 <Hero />
                 <Stats />
-                <Projects />
+                <div id="projects">
+                    <Projects />
+                </div>
                 <Summary />
             </div>
 
