@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 import "../css/nav.css";
 import useLocalStorage from "../hooks/useLocalStorage";
 import { Link } from "react-router-dom";
@@ -17,6 +18,20 @@ function Nav() {
     const toggleTheme = () => {
         setIsLight(prev => !prev);
     };
+
+    const { hash } = useLocation();
+
+    useEffect(() => {
+        if (hash) {
+        const el = document.querySelector(hash);
+        if (el) {
+            el.scrollIntoView({ behavior: "smooth" });
+        }
+        } else {
+        // default: scroll to top
+        window.scrollTo({ top: 0, behavior: "smooth" });
+        }
+    }, [hash]);
 
     return (
         <nav className="navbar navbar-expand-lg navbar-dark fixed-top">

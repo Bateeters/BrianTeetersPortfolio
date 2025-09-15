@@ -1,3 +1,23 @@
-.summary {
-    height: 50vh;
+.summary-card {
+    border-radius: 20px;
+}
+
+.summary-line {
+    height: 1px;
+    background-color: lime;
+    width: 100%;
+}
+
+.summary-image {
+    border-radius: 20px;
+    height: 100px;
+    width: 100px;
+    object-fit: cover;
+}
+
+@media screen and (min-width: 768px) {
+    .summary-line {
+        height: 90%;
+        width: 1px;
+    }
 }

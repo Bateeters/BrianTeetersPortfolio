@@ -99,7 +99,7 @@ export const resume = [
       },
       {
         institution: "The Odin Project",
-        degree: "Full-Stack JavaScript curriculum (in progress)",
+        degree: "Self-Paced Full-Stack JavaScript curriculum (in progress)",
         bullets: [
           "Covered HTML, CSS, JavaScript, React.js, and SQL with project-based learning.",
           "Currently working through Node.js section to strengthen back-end skills."

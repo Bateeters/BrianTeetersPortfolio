@@ -2,18 +2,18 @@ import "../css/hero.css"
 
 function Hero() {
     return (
-        <div className="row justify-content-end me-md-0 me-sm-5 align-items-center h-100">
-            <div className="col-md-9 col-10 p-0">
+        <div className="row justify-content-end hero">
+            <div className="col-9">
                 <p>Seamless digital design from concept to code.</p>
                 <h1>I'm Brian Teeters</h1>
                 <h2>Front-End Developer</h2>
-                <div className="mt-4">
-                    <a href="#projects">
-                        <button className="btn me-3 px-2 py-1 rounded-pill">Jump to Projects</button>
+                <a href="#projects" className="">
+                    <button className="btn rounded-pill m-3 ms-0">Jump to Projects</button>
 
-                    </a>
-                    <button className="btn ms-3 px-2 py-1 rounded-pill">Download Resume</button>
-                </div>
+                </a>
+                <a href="" className="">
+                    <button className="btn rounded-pill m-3 ms-0">Download Resume</button>
+                </a>
             </div>
         </div>
     )

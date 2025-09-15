@@ -9,7 +9,7 @@ function About() {
             <header>
                 <Nav />
             </header>
-            <div style={{marginTop: "100px"}}>
+            <div style={{paddingTop: "100px"}} id="top">
                 <Bio />
             </div>
 
