@@ -1,5 +1,5 @@
-import "../css/LastProject.css"
-import { useEffect, useRef } from "react"
+import { useEffect, useRef } from "react";
+import "../css/lastProject.css";
 
 function LastProject({project}) {
     const containerRef = useRef(null);
