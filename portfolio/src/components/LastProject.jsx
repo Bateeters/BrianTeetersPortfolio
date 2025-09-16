@@ -36,7 +36,7 @@ function LastProject({project}) {
                         <p className="proj-description pe-3">{project.description}</p>
                         <div className="d-flex flex-wrap py-2">
                             {project.tech.map((tech) => (
-                                <p className="pe-4 py-0 my-1" key={tech.id}>{tech}</p>
+                                <p className="pe-4 py-0 my-1 proj-tech" key={tech.id}>{tech}</p>
                             ))}
                         </div>
                         <a href="">

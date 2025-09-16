@@ -4,7 +4,7 @@
 
 .summary-line {
     height: 1px;
-    background-color: lime;
+    background-color: var(--accent-dark);
     width: 100%;
 }
 
@@ -13,6 +13,23 @@
     height: 100px;
     width: 100px;
     object-fit: cover;
+}
+
+.light-theme {
+    & .summary-line {
+        background-color: var(--accent-light);
+    }
+
+    & .card-btn {
+        background-color: var(--nav-light);
+        border: 1px solid var(--card-light);
+        color: var(--card-dark);
+
+        &:hover {
+            background-image: linear-gradient(var(--card-light), var(--accent-light));
+            color: var(--card-dark);
+        }
+    }
 }
 
 @media screen and (min-width: 768px) {

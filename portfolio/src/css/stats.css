@@ -102,6 +102,14 @@
     }
 }
 
+.light-theme {
+    & .stat-card-start:hover,
+    .stat-card:hover,
+    .stat-card-end:hover {
+        background-image:linear-gradient(var(--card-light), rgba(250, 128, 114, 0.25), rgba(250, 128, 114, 0.5));
+    }
+}
+
 @media screen and (max-width:767px) {
 
     .stat-card-start,
