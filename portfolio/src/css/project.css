@@ -19,7 +19,7 @@
     font-size: 4rem;
     font-weight: 700;
     text-align: end;
-    color: lime;
+    color: var(--accent-dark);
     opacity: .45;
 }
 
@@ -33,8 +33,26 @@
     text-wrap: pretty;
 }
 
-@media screen and (min-width: 768px) {
+.light-theme {
+    & .proj-id {
+        color: var(--accent-light);
+    }
 
+    & .proj-title {
+        color: var(--card-dark)
+    }
+
+    & .proj-description {
+        background-color: var(--card-light);
+        color: var(--card-dark);
+    }
+
+    & .proj-tech {
+        color: var(--card-dark);
+    }
+}
+
+@media screen and (min-width: 768px) {
 .proj-image {
     height: 100vh;
     margin-top: 0;

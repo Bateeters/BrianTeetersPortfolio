@@ -1,15 +1,28 @@
 hr {
-    color: lime;
+    color: var(--accent-dark);
     opacity: 1;
 }
 
 li::marker {
-    color: lime;
+    color: var(--accent-dark);
 }
 
 .resume-title {
     position: sticky;
     top: 60px;
+}
+
+.light-theme {
+    & hr,
+    li::marker {
+        color: var(--accent-light);
+    }
+
+    & .resume-title,
+    .resume-text {
+        color: var(--card-dark);
+    }
+
 }
 
 @media screen and (max-width: 767px) {

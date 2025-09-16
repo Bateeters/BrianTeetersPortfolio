@@ -165,6 +165,7 @@ body {
   & .card {
     background-color: var(--card-light) !important;
     color: var(--card-dark) !important;
+    border: var(--card-light);
   }
 
   & button {

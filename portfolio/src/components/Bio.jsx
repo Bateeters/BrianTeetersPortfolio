@@ -9,7 +9,7 @@ function Bio() {
                     <h2>About Me</h2>
                     <img src="https://as1.ftcdn.net/v2/jpg/02/85/73/78/1000_F_285737865_FVbkYfyDTEUTcMHs1YgeR8ZfC8PwyFP3.jpg" alt="Brian Teeters" style={{backgroundColor: "pink", borderRadius: "20px", width: "100%"}}/>
                 </div>
-                <p className='col-md-9 col-sm-10 col-9 pt-md-5 mt-md-2 pt-3'>
+                <p className='col-md-9 col-sm-10 col-9 pt-md-5 mt-md-2 pt-3 resume-text'>
                     Front-End Developer with a foundation in full-stack development and a 
                     background in UX/UI design and marketing. Experienced in building responsive, 
                     accessible, and user-focused web applications using modern front-end 

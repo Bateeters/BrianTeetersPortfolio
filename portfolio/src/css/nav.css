@@ -1,6 +1,30 @@
 .theme-toggle-btn {
     height: 30px;
     width: 30px;
-    background-image: linear-gradient(45deg, white, rgb(255, 186, 178));
+    background-image: linear-gradient(45deg, var(--bg-light), var(--accent-light));
     border-radius: 20px;
+}
+
+.light-theme {
+    & .navbar-brand {
+        color: var(--nav-dark);
+
+        &:hover {
+            color: var(--card-dark);
+        }
+    }
+
+    & .nav-item .nav-link {
+        color: var(--nav-dark);
+        opacity: .65;
+
+        &:hover {
+            color: var(--nav-dark);
+            opacity: 1;
+        }
+    }
+
+    & .theme-toggle-btn {
+        background-image: linear-gradient(45deg, var(--bg-dark), var(--accent-dark))
+    }
 }
