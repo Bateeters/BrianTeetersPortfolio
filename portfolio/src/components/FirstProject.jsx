@@ -1,5 +1,5 @@
 import { useEffect, useRef } from "react";
-import "../css/firstProject.css"
+import "../css/firstProject.css";
 
 function FirstProject({project}) {
     const containerRef = useRef(null);
