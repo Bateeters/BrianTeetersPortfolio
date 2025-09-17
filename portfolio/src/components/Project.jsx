@@ -14,12 +14,19 @@ function Project({project}) {
                                 <p className="pe-4 py-0 my-1 proj-tech" key={tech.id}>{tech}</p>
                             ))}
                         </div>
-                        <a href="">
-                            <button className="btn rounded-pill m-3 ms-0">Click Me!</button>
-                        </a>
+                        {project.links && project.links.map((link) => (
+                            <a href={link.url} key={link.id} target="_blank">
+                                <button className="btn rounded-pill m-3 ms-0">{link.title}</button>
+                            </a>
+
+                        ))}
                     </div>
-                    <div className="col-md-6 col-9 proj-image" style={{backgroundColor: `${project.bgColor}`}}>
-                        <h2>project.image</h2>
+                    <div className="col-md-6 col-9 proj-image" style={{
+                        backgroundImage: `url(${project.image})`,
+                        backgroundSize: 'cover',
+                        backgroundPosition: `${project.imgPosition}`
+                    }}>
+                        <h2></h2>
                     </div>
                 </div>
             </div>

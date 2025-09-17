@@ -43,7 +43,6 @@
     }
 
     & .proj-description {
-        background-color: var(--card-light);
         color: var(--card-dark);
     }
 
@@ -53,35 +52,39 @@
 }
 
 @media screen and (min-width: 768px) {
-.proj-image {
-    height: 100vh;
-    margin-top: 0;
-}
+    .proj-image {
+        height: 100vh;
+        margin-top: 0;
+    }
 
-.proj-id {
-    margin-top: 50px;
-    left: 35px;
-    font-size: 6rem;
-    font-weight: 700;
-    text-align: end;
-    position: relative;
-    color: lime;
-    opacity: .45;
-}
+    .proj-id {
+        margin-top: 50px;
+        left: 35px;
+        font-size: 6rem;
+        font-weight: 700;
+        text-align: end;
+        position: relative;
+        color: lime;
+        opacity: .65;
+    }
 
-.proj-title {
-    margin-top: 0;
-    font-weight: 600;
-    font-size: 2.25rem;
-}
+    .proj-title {
+        margin-top: 0;
+        font-weight: 600;
+        font-size: 2.25rem;
+    }
 
-.proj-description {
-    color: whitesmoke;
-    background-color: var(--card-dark);
-    padding: 20px;
-    border-radius: 20px 0 0 20px;
-    text-wrap: pretty;
-}
+    .proj-description {
+        color: whitesmoke;
+        background-color: var(--card-dark);
+        padding: 20px;
+        border-radius: 20px 0 0 20px;
+        text-wrap: pretty;
+    }
+
+    .light-theme .proj-description {
+        background-color: var(--card-light);
+    }
 }
 
 @media screen and (max-width:767px) {

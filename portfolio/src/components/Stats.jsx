@@ -7,7 +7,7 @@ function Stats() {
                 <div className="row justify-content-sm-center mx-md-1 gap-md-0 gap-2 mb-5 stat-card-container align-items-end">
                     <div className="card col-md-3 col-10 mb-3 p-3 text-center justify-content-center stat-card-start">
                         <h3>Development</h3>
-                        <p className="mb-0">2+ Years of Professional Experience</p>
+                        <p className="mb-0">2+ Years of Experience</p>
                     </div>
                     <div className="card col-md-3 col-10 mb-3 p-3 text-center justify-content-center stat-card">
                         <h3>Cross-Disciplinary</h3>
@@ -16,7 +16,7 @@ function Stats() {
 
                     <div className="card col-md-3 col-10 mb-3 p-3 text-center justify-content-center stat-card">
                         <h3>Design</h3>
-                        <p className="mb-0">7+ Years of Professional Experience</p>
+                        <p className="mb-0">10+ Years of Experience</p>
                     </div>
 
                     <div className="card col-md-3 col-10 mb-3 p-3 text-center justify-content-center stat-card-end">

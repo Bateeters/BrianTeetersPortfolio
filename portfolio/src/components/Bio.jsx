@@ -1,13 +1,14 @@
 import { resume } from '../js/resume'
 import ResumeSection from './ResumeSection'
+import headshot from '../assets/headshot.jpeg'
 
 function Bio() {
     return (
         <div style={{textWrap: "pretty", lineHeight: "2em"}} className='container'>
             <div className='row justify-content-end align-items-start'>
-                <div className='resume-title col-md-3 col-sm-10 col-9 pt-3' style={{top: "85px"}}>
+                <div className='resume-title col-md-3 col-sm-10 col-9 py-3' style={{top: "85px"}}>
                     <h2>About Me</h2>
-                    <img src="https://as1.ftcdn.net/v2/jpg/02/85/73/78/1000_F_285737865_FVbkYfyDTEUTcMHs1YgeR8ZfC8PwyFP3.jpg" alt="Brian Teeters" style={{backgroundColor: "pink", borderRadius: "20px", width: "100%"}}/>
+                    <img src={headshot} alt="Brian Teeters" style={{ borderRadius: "20px"}} className='w-100'/>
                 </div>
                 <p className='col-md-9 col-sm-10 col-9 pt-md-5 mt-md-2 pt-3 resume-text'>
                     Front-End Developer with a foundation in full-stack development and a 
