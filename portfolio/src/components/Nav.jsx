@@ -55,7 +55,7 @@ function Nav() {
                                 <button className="btn px-2 py-1 rounded-pill">Contact Me</button>
                             </a>
                         </li>
-                        <li className="nav-item d-flex align-items-center px-2">
+                        <li className="nav-item d-flex align-items-center px-2 pt-lg-0 pt-3">
                             <button onClick={toggleTheme} className="theme-toggle-btn btn">
                             </button>
                         </li>
