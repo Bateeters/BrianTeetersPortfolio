@@ -11,10 +11,8 @@ function Hero() {
                     <button className="btn rounded-pill m-3 ms-0">Jump to Projects</button>
 
                 </a>
-                <a href="" className="">
-                    <button className="btn rounded-pill m-3 ms-0" onClick={() =>
-                        alert("testing")
-                    }>Download Resume</button>
+                <a href="/Brian_Teeters_Resume.pdf" target="_blank">
+                    <button className="btn rounded-pill m-3 ms-0">Download Resume</button>
                 </a>
             </div>
         </div>
