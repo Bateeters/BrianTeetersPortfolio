@@ -26,7 +26,7 @@ export const projects = [
             { id: "1", title: "Live Demo", url: "https://react-exercises-pt2.pages.dev/" },
             { id: "2", title: "GitHub", url: "https://github.com/Bateeters/React-Exercises-Pt2" }
         ],
-        imgPosition: "center 25%"
+        imgPosition: "center left"
     },
     {
         id: "03",
