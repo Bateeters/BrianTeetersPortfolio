@@ -26,7 +26,7 @@ export const projects = [
             { id: "1", title: "Live Demo", url: "https://react-exercises-pt2.pages.dev/" },
             { id: "2", title: "GitHub", url: "https://github.com/Bateeters/React-Exercises-Pt2" }
         ],
-        imgPosition: "center left"
+        imgPosition: "left 25%"
     },
     {
         id: "03",
@@ -53,7 +53,7 @@ export const projects = [
             { id: "2", title: "XD Mobile Prototype", url: "https://xd.adobe.com/view/4eff75d1-a463-4755-a436-6658b4309afb-1bac/?fullscreen" },
             { id: "3", title: "GitHub", url: "https://github.com/Bateeters/ToughMudderRedesign" }
         ],
-        imgPosition: "center 25%"
+        imgPosition: "center"
     },
     {
         id: "05",

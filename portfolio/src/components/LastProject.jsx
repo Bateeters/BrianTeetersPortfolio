@@ -29,8 +29,8 @@ function LastProject({project}) {
     return(
         <div ref={containerRef} className="row mb-3 proj-container">
             <div ref={innerRef} className="col-12 proj-flex-box">
-                <div className="row justify-content-end align-items-md-stretch align-items-end flex-md-row flex-column-reverse ms-1">
-                    <div className="col-md-5 col-9 ps-0 ps-md-1 pe-md-0">
+                <div className="proj-row row justify-content-end align-items-end flex-column-reverse ms-1">
+                    <div className="proj-text-col col-9 ps-0">
                         <h3 className="proj-id">{project.id}</h3>
                         <h2 className="proj-title">{project.title}</h2>
                         <p className="proj-description pe-3">{project.description}</p>
@@ -45,10 +45,10 @@ function LastProject({project}) {
                             </a>
                         ))}
                     </div>
-                    <div className="col-md-6 col-9 proj-image" style={{
+                    <div className="col-9 proj-image" style={{
                         backgroundImage: `url(${project.image})`,
                         backgroundSize: 'cover',
-                        backgroundPosition: 'top center'
+                        backgroundPosition: `${project.imgPosition}`
                     }}>
                         <h2></h2>
                     </div>
