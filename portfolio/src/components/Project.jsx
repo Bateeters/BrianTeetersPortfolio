@@ -2,10 +2,10 @@ import "../css/project.css"
 
 function Project({project}) {
     return(
-        <div className="row mb-md-0 mb-3 proj-container">
+        <div className="row mb-lg-0 mb-3 proj-container">
             <div className="col-12 proj-flex-box">
-                <div className="row justify-content-end align-items-md-stretch align-items-end flex-md-row flex-column-reverse ms-1">
-                    <div className="col-md-5 col-9 ps-0 pe-md-0 ps-md-1">
+                <div className="row justify-content-end align-items-lg-stretch align-items-end flex-lg-row flex-column-reverse ms-1">
+                    <div className="col-lg-5 col-9 ps-0 pe-md-0 ps-lg-1">
                         <h3 className="proj-id">{project.id}</h3>
                         <h2 className="proj-title">{project.title}</h2>
                         <p className="proj-description pe-3">{project.description}</p>
@@ -18,7 +18,7 @@ function Project({project}) {
                             <button className="btn rounded-pill m-3 ms-0">Click Me!</button>
                         </a>
                     </div>
-                    <div className="col-md-6 col-9 proj-image" style={{backgroundColor: `${project.bgColor}`}}>
+                    <div className="col-lg-6 col-9 proj-image" style={{backgroundColor: `${project.bgColor}`}}>
                         <h2>project.image</h2>
                     </div>
                 </div>
