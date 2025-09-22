@@ -14,7 +14,7 @@ export const projects = [
         links: [
             { id: "1", title: "GitHub", url: "https://github.com/Bateeters/BrianTeetersPortfolio" }
         ],
-        imgPosition: "top center"    
+        imgPosition: "center 21%"    
     },
     {
         id: "02",
