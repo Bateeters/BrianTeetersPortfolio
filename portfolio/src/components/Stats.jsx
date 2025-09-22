@@ -15,13 +15,13 @@ function Stats() {
                     </div>
 
                     <div className="card col-md-3 col-10 mb-3 p-3 text-center justify-content-center stat-card">
-                        <h3>Design</h3>
-                        <p className="mb-0">10+ Years of Experience</p>
+                        <h3>Development Lifecycle</h3>
+                        <p className="mb-0">From Wireframes to Maintenance</p>
                     </div>
 
                     <div className="card col-md-3 col-10 mb-3 p-3 text-center justify-content-center stat-card-end">
-                        <h3>Development Lifecycle</h3>
-                        <p className="mb-0">From Wireframes to Maintenance</p>
+                        <h3>Design</h3>
+                        <p className="mb-0">10+ Years of Experience</p>
                     </div>
                 </div>
             </div>

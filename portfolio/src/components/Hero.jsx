@@ -12,7 +12,7 @@ function Hero() {
 
                 </a>
                 <a href="/Brian_Teeters_Resume.pdf" target="_blank">
-                    <button className="btn rounded-pill m-3 ms-0">Download Resume</button>
+                    <button className="btn rounded-pill m-3 ms-0">View Resume</button>
                 </a>
             </div>
         </div>

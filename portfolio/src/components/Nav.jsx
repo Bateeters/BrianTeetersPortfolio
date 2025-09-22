@@ -52,11 +52,12 @@ function Nav() {
                         </li>
                         <li className="nav-item d-flex align-items-center px-2">
                             <a href="mailto:brianteetersdesign@gmail.com">
-                                <button className="btn px-2 py-1 rounded-pill">Contact Me</button>
+                                <button className="btn px-2 py-1 rounded-pill">Email Me</button>
                             </a>
                         </li>
                         <li className="nav-item d-flex align-items-center px-2 pt-lg-0 pt-3">
-                            <button onClick={toggleTheme} className="theme-toggle-btn btn">
+                            <button onClick={toggleTheme} className="theme-toggle-btn btn d-flex justify-content-center align-items-center">
+                                {isLight ? <i className="bi bi-moon"></i> : <i className="bi bi-sun"></i>}
                             </button>
                         </li>
                     </ul>

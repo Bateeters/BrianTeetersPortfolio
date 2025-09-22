@@ -59,11 +59,9 @@
 
     .proj-id {
         margin-top: 50px;
-        left: 35px;
         font-size: 6rem;
         font-weight: 700;
-        text-align: end;
-        position: relative;
+        text-align: start;
         color: lime;
         opacity: .65;
     }

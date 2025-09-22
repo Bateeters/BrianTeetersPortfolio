@@ -5,6 +5,16 @@
     border-radius: 20px;
 }
 
+.bi.bi-sun {
+    color: black;
+    margin-top: 2px;
+}
+
+.bi.bi-moon {
+    color: white;
+    margin-top: 2px;
+}
+
 .light-theme {
     & .navbar-brand {
         color: var(--nav-dark);
