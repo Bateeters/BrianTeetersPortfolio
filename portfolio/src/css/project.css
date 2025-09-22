@@ -51,10 +51,24 @@
     }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 769px) {
+    .proj-row {
+        align-items: stretch !important;
+        flex-direction: row !important;
+    }
+
+    .proj-text-col {
+        padding-left: .25rem !important;
+        padding-right: 0 !important;
+        flex: 0 0 auto;
+        width: 41.66666667%;
+    }
+
     .proj-image {
         height: 100vh;
         margin-top: 0;
+        flex: 0 0 auto;
+        width: 50%;
     }
 
     .proj-id {
@@ -78,6 +92,7 @@
         padding: 20px;
         border-radius: 20px 0 0 20px;
         text-wrap: pretty;
+        line-height: 3vw;
     }
 
     .light-theme .proj-description {
@@ -85,7 +100,7 @@
     }
 }
 
-@media screen and (max-width:767px) {
+@media screen and (max-width:768px) {
     .proj-container {
         height: initial;
         clip-path: none;
