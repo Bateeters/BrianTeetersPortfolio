@@ -9,7 +9,7 @@ export const resume = [
         date: "July 2024 – Present",
         bullets: [
           "Designed and developed responsive supplier and destination websites using HTML, CSS, JavaScript, and Bootstrap.",
-          "Built modernized themes for the NexCite platform, improving usability and client adoption.",
+          "Built modernized themes for the company's CMS and offered clients custom work, improving usability and adoption.",
           "Collaborated with UX/UI and marketing teams to create customer-focused designs that increased engagement.",
           "Assisting in rebuilding core company products with React.js; trained with development team in .NET Core to support small back-end tasks.",
           "Used Salesforce, Jira, and Asana to track both client and internal requests."
