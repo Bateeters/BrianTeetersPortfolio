@@ -27,7 +27,7 @@ export const resume = [
       {
         company: "EZAdsPro",
         location: "Carmel, IN",
-        role: "Graphic Designer",
+        role: "Senior Graphic Designer",
         date: "Dec 2017 – Mar 2023",
         bullets: [
           "Designed and delivered high-impact digital and print ads with rapid turnaround times.",
