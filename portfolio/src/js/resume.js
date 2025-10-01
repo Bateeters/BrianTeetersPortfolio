@@ -42,17 +42,13 @@ export const resume = [
     section: "Projects",
     items: [
       {
-        title: "Portfolio Website",
+        title: "CV / Resume Builder",
         link: "GitHub",
         bullets: [
-          "Designed and built a React-based portfolio site with custom components, theme toggling, animations, and responsive layouts."
-        ]
-      },
-      {
-        title: "React Playground",
-        link: "GitHub",
-        bullets: [
-          "An ever-growing collection of mini-projects to practice React.js skills such as state management, event handling, and component-driven development."
+          "Built a dynamic resume builder application using React with modular, reusable components for personal info, education, and work experience",
+          "Implemented real-time edit/display modes with React state and props to manage user data and conditional rendering",
+          "Applied modular CSS for maintainable styling and used ESLint + Vite for modern development tooling and workflow efficiency",
+          "Deployed the project to a live hosting platform and maintained version control with Git/GitHub"
         ]
       },
       {
@@ -77,7 +73,14 @@ export const resume = [
         bullets: [
           "Created a Python-based to-do list app to explore back-end logic and full-stack principles."
         ]
-      }
+      },
+      {
+        title: "Portfolio Website",
+        link: "GitHub",
+        bullets: [
+          "Designed and built a React-based portfolio site with custom components, theme toggling, animations, and responsive layouts."
+        ]
+      },
     ]
   },
   {

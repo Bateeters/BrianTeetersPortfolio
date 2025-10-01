@@ -1,5 +1,6 @@
 import portfolioSiteImage from '../assets/PortfolioSiteImg.jpg';
 import reactPlayground from '../assets/ReactPlaygroundImg.jpg';
+import cvResumeBuilder from '../assets/ResumeBuilder.jpg';
 import vpSites from '../assets/VPsites.jpg';
 import tmRedesign from '../assets/ToughMudderMockup.jpg';
 import toDoList from '../assets/ToDoList.jpg';
@@ -7,17 +8,16 @@ import toDoList from '../assets/ToDoList.jpg';
 export const projects = [
     {
         id: "01",
-        title: "Portfolio Website",
-        description: "The site you're viewing right now! Designed and developed from scratch as both a personal brand and a technical showcase. Features custom components, responsive layouts, theme toggling, and smooth animations. Built to highlight my ability to blend front-end development with strong visual design.",
-        image: portfolioSiteImage,
+        title: "CV / Resume Builder",
+        description: "The CV/Resume Builder is a React application that allows users to create, edit, and preview their resume in real time. Built with Vite for fast development and deployment, it showcases component-based architecture, state management with React hooks, and conditional rendering to switch between editable forms and polished previews.",
+        image: cvResumeBuilder,
         tech: ["React", "CSS", "JavaScript", "Bootstrap 5"],
         links: [
-            { id: "1", title: "GitHub", url: "https://github.com/Bateeters/BrianTeetersPortfolio" }
+            { id: "1", title: "Live Demo", url: "https://cvresumebuilder.pages.dev/" },
+            { id: "2", title: "GitHub", url: "https://github.com/Bateeters/CVResumeBuilder" }
         ],
-        imgPosition: "center 21%"    
-    },
-    {
-        id: "02",
+        imgPosition: "center"
+        /*
         title: "React Playground",
         description: "An ever growing collection of React exercises built to strengthen component-driven thinking, state management, props handling, and event-driven logic. This project demonstrates my ability to quickly translate requirements into functional features and showcases my dedication to both understanding and mastering React fundamentals.",
         image: reactPlayground,
@@ -27,9 +27,10 @@ export const projects = [
             { id: "2", title: "GitHub", url: "https://github.com/Bateeters/React-Exercises-Pt2" }
         ],
         imgPosition: "left 25%"
+        */
     },
     {
-        id: "03",
+        id: "02",
         title: "Destination & Supplier Sites",
         description: "Professional website pages designed and developed for my current role. These pages are added to customer sites for destination and supplier promotion. Responsibilities included implementing responsive layouts and ensuring cross-browser performance. These projects highlight my ability to deliver production-ready code in a real-world environment.",
         image: vpSites,
@@ -43,7 +44,7 @@ export const projects = [
         imgPosition: "center"
     },
     {
-        id: "04",
+        id: "03",
         title: "Tough Mudder Redesign",
         description: "A full mobile redesign project beginning with wireframes in Adobe XD and was then coded into a functional, responsive demo site. This project demonstrates my ability to merge creative UX/UI design with solid front-end development, translating visuals into user-friendly, accessible code.",
         image: tmRedesign,
@@ -56,7 +57,7 @@ export const projects = [
         imgPosition: "center"
     },
     {
-        id: "05",
+        id: "04",
         title: "To-Do List",
         description: "A simple to-do list application built with Python. While straightforward, it represents some of my first steps into backend development and full-stack thinking, laying the foundation for future work and projects with data handling, logic structuring, and server-side programming.",
         image: toDoList,
@@ -65,5 +66,16 @@ export const projects = [
             { id: "1", title: "GitHub", url: "https://github.com/Bateeters/todo_list" }
         ],
         imgPosition: "center"
+    },    
+    {
+        id: "05",
+        title: "Portfolio Website",
+        description: "The site you're viewing right now! Designed and developed from scratch as both a personal brand and a technical showcase. Features custom components, responsive layouts, theme toggling, and smooth animations. Built to highlight my ability to blend front-end development with strong visual design.",
+        image: portfolioSiteImage,
+        tech: ["React", "CSS", "JavaScript", "Bootstrap 5"],
+        links: [
+            { id: "1", title: "GitHub", url: "https://github.com/Bateeters/BrianTeetersPortfolio" }
+        ],
+        imgPosition: "center 21%"    
     }
 ];
