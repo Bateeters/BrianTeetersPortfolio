@@ -59,9 +59,9 @@ export const projects = [
     {
         id: "04",
         title: "To-Do List",
-        description: "A simple to-do list application built with Python. While straightforward, it represents some of my first steps into backend development and full-stack thinking, laying the foundation for future work and projects with data handling, logic structuring, and server-side programming.",
+        description: "A simple to-do list application built with Python utilizing Django. While straightforward, it represents some of my first steps into backend development and full-stack thinking, laying the foundation for future work and projects with data handling, logic structuring, and server-side programming.",
         image: toDoList,
-        tech: ["Python"],
+        tech: ["Python", "Django"],
         links: [
             { id: "1", title: "GitHub", url: "https://github.com/Bateeters/todo_list" }
         ],

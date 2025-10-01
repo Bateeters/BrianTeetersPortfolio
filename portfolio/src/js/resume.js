@@ -71,7 +71,7 @@ export const resume = [
         title: "To-Do List App",
         link: "GitHub",
         bullets: [
-          "Created a Python-based to-do list app to explore back-end logic and full-stack principles."
+          "Created a Python-based, Django, to-do list app to explore back-end logic and full-stack principles."
         ]
       },
       {
