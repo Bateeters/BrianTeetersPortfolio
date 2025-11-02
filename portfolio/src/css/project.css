@@ -92,7 +92,6 @@
         padding: 20px;
         border-radius: 20px 0 0 20px;
         text-wrap: pretty;
-        line-height: 3vw;
     }
 
     .light-theme .proj-description {

@@ -42,6 +42,16 @@ export const resume = [
     section: "Projects",
     items: [
       {
+        title: "React Shop",
+        link: "GitHub",
+        bullets: [
+          "Developed a React-based e-commerce application with a structured component hierarchy and efficient state management using Context and useReducer",
+          "Implemented dynamic routing with React Router and persistent cart functionality using sessionStorage for real-time updates",
+          "Fetched and displayed live product data from the FakeStore API, featuring quantity controls and a responsive cart system",
+          "Styled the application with CSS Modules for maintainable, modular design and deployed it to a live hosting platform via Git/GitHub"
+        ]
+      },
+      {
         title: "CV / Resume Builder",
         link: "GitHub",
         bullets: [

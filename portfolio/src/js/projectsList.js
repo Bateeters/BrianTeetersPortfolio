@@ -1,5 +1,5 @@
 import portfolioSiteImage from '../assets/PortfolioSiteImg.jpg';
-import reactPlayground from '../assets/ReactPlaygroundImg.jpg';
+import reactShop from '../assets/reactShop.jpg';
 import cvResumeBuilder from '../assets/ResumeBuilder.jpg';
 import vpSites from '../assets/VPsites.jpg';
 import tmRedesign from '../assets/ToughMudderMockup.jpg';
@@ -8,6 +8,18 @@ import toDoList from '../assets/ToDoList.jpg';
 export const projects = [
     {
         id: "01",
+        title: "React Shop",
+        description: "A front-end React application built from the ground up to demonstrate component-based architecture, state management with Context and useReducer, and integration with the FakeStore API. This project features dynamic routing with React Router, persistent cart data using sessionStorage, and real-time cart updates displayed in the navigation bar. Styled with CSS Modules, it showcases my ability to plan, structure, and deploy a functional, scalable single-page application.",
+        image: reactShop,
+        tech: ["React", "JavaScript", "CSS Modules", "FakeStore API"],
+        links: [
+            { id: "1", title: "Live Demo", url: "https://brianteetersreactshop.pages.dev/" },
+            { id: "2", title: "GitHub", url: "https://github.com/Bateeters/BrianTeetersReactShop" }
+        ],
+        imgPosition: "center"
+    },
+    {
+        id: "02",
         title: "CV / Resume Builder",
         description: "The CV/Resume Builder is a React application that allows users to create, edit, and preview their resume in real time. Built with Vite for fast development and deployment, it showcases component-based architecture, state management with React hooks, and conditional rendering to switch between editable forms and polished previews.",
         image: cvResumeBuilder,
@@ -30,7 +42,7 @@ export const projects = [
         */
     },
     {
-        id: "02",
+        id: "03",
         title: "Destination & Supplier Sites",
         description: "Professional website pages designed and developed for my current role. These pages are added to customer sites for destination and supplier promotion. Responsibilities included implementing responsive layouts and ensuring cross-browser performance. These projects highlight my ability to deliver production-ready code in a real-world environment.",
         image: vpSites,
@@ -44,7 +56,7 @@ export const projects = [
         imgPosition: "center"
     },
     {
-        id: "03",
+        id: "04",
         title: "Tough Mudder Redesign",
         description: "A full mobile redesign project beginning with wireframes in Adobe XD and was then coded into a functional, responsive demo site. This project demonstrates my ability to merge creative UX/UI design with solid front-end development, translating visuals into user-friendly, accessible code.",
         image: tmRedesign,
@@ -57,7 +69,7 @@ export const projects = [
         imgPosition: "center"
     },
     {
-        id: "04",
+        id: "05",
         title: "To-Do List",
         description: "A simple to-do list application built with Python utilizing Django. While straightforward, it represents some of my first steps into backend development and full-stack thinking, laying the foundation for future work and projects with data handling, logic structuring, and server-side programming.",
         image: toDoList,
@@ -68,7 +80,7 @@ export const projects = [
         imgPosition: "center"
     },    
     {
-        id: "05",
+        id: "06",
         title: "Portfolio Website",
         description: "The site you're viewing right now! Designed and developed from scratch as both a personal brand and a technical showcase. Features custom components, responsive layouts, theme toggling, and smooth animations. Built to highlight my ability to blend front-end development with strong visual design.",
         image: portfolioSiteImage,
